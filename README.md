@@ -95,13 +95,15 @@ Prediction is based on selecting the class with the **minimum aggregated score**
 
 ```
 CAPSTONE/
-├── ensemble1.ipynb                 # Main experiment notebook
-├── ensemble_predictions.csv        # Final ensemble predictions
-├── top_5_accuracies_fold_1.csv
-├── top_5_accuracies_fold_2.csv
-├── top_5_accuracies_fold_3.csv
-├── top_10_model_combinations_fold_*.docx
-└── README.md
+├── ensemble1.ipynb               # Jupyter notebook with all experiments and fuzzy ensemble logic
+├── all_model_probabilities.csv   # Combined model probability data
+├── all_probabilities_1.csv       # Raw probability outputs from 1st fuzzy ensemble run
+├── ensemble_predictions.csv      # Final predicted outputs for all test images
+├── top_5_accuracies_fold_1.csv   # Fold 1 - top 5 ensemble combinations
+├── top_5_accuracies_fold_2.csv   # Fold 2 - top 5 ensemble combinations
+├── top_5_accuracies_fold_3.csv   # Fold 3 - top 5 ensemble combinations
+├── Folds_Average.xlsx            # Averaged performance across folds
+└── README.md                     # Project documentation
 ```
 
 ---
